@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 15px;
+}
+
+.content {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+p {
+  margin: 0 15px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
