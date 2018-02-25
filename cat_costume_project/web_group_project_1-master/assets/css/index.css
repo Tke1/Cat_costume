@@ -1,0 +1,110 @@
+body {
+  margin: 0 auto;
+}
+
+html h1 {
+  font-family: "PT Scans Narrow Bold";
+  font-size: 1.875em;
+  color: #323232;
+}
+
+html h2 {
+  font-family: "PT Scans Narrow Bold";
+  font-size: 1.5em;
+  color: #00897f;
+  text-transform: uppercase;
+}
+
+html h3 {
+  font-family: "PT Serif Regular";
+  font-size: 1em;
+  color: #323232;
+  line-height: 2em;
+}
+
+
+/* On devices wider than 660px */
+@media(min-width: 660px) {
+}
+
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+
+}
+
+/* nagivation */
+nav p {
+  font-family: "PT Sans Regular";
+  font-size: 0.9em;
+  color: #323232;
+  float: right;
+    }
+
+nav h1 {
+  font-family: "PT Sans Narrow Bold";
+  font-size: 1.25em;
+  color: #323232;
+  display: inline;
+}
+
+nav .menu {
+  width: 80px;
+}
+
+/* main */
+.main h1 {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.main h3 {
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+/* About section */
+.about div{
+background-color: #EEEE;
+display: inline-block;
+padding: 30px;
+text-align: justify;
+width: 20%;
+margin: 60px;
+}
+
+.about h2 {
+  padding-bottom: 25px;
+  text-align: center;
+
+  }
+
+/* footer */
+footer h1 {
+  font-family: "PT Sans Narrow Bold";
+  font-size: 1.25em;
+  color: #323232;
+}
+
+/* cat images */
+.cats {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.store-info {
+  background-color: #EEEE;
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 80px;
+  }
+
+.store-info div {
+background-color:#FFFF;
+  padding: 80px;
+  text-align: justify;
+  width: 20%;
+  margin: 60px;
+}
