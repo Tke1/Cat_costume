@@ -30,7 +30,7 @@ h3 {
   line-height: 2em;
 }
 
-/* On devices wider than 660px */
+
 
 /* nagivation */
 
@@ -180,7 +180,7 @@ footer h1 {
   float: center;
   padding-top: 45px;
   margin-right: 60px;
-  width: 20%;
+  width: 40%;
   display: inline-block;
   margin-bottom: 80px;
   vertical-align: top;
@@ -196,12 +196,28 @@ footer h1 {
   text-transform: lowercase;
 }
 
-#Contact a {
+#Contact p{
+  font-weight: bold;
+}
+address {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  font-style: normal;
   font-family: PT Serif;
   font-weight: bold;
   font-size: 1em;
-  color: #f26522;
+  margin-left: 0%;
 }
+
+address a {
+    color: #f26522;
+}
+
+address p {
+  text-align: left;
+}
+
 
 @media (max-width: 660px) {
   /* About section */
@@ -215,7 +231,7 @@ footer h1 {
   }
   #Mavis {
     width: 40%;
-    margin-right: 26%;
+    margin-right: 20%;
     min-height: 200px;
   }
   /* cat images */
@@ -230,18 +246,37 @@ footer h1 {
 
   /* store info */
   .store-info div {
-    width: 35%;
+    width: 49%;
     margin-left: 15%;
-    min-height: 200px;
+    min-height: 300px;
   }
 }
 
 @media(max-width: 940px) {
+
+  /* About section */
+  .about {
+    width: 100%;
+  }
+  #kat {
+    width: 40%;
+    margin-left: 21%;
+    min-height: 200px;
+  }
+  #Mavis {
+    width: 40%;
+    margin-right: 24%;
+    min-height: 200px;
+  }
+
   /* cat images */
   .cats img {
     width: 40%;
     margin-left: 9%;
+  }
 
+  #top {
+    margin-right: 5%;
   }
   #middle {
     margin-top: 55px;
@@ -249,11 +284,18 @@ footer h1 {
     margin-right: 5%;
   }
 
+ #bottom {
+   margin-right: 5%;
+ }
+
   /* store info */
-  .store-info div {
-    width: 30%;
-    margin-left: 15%;
+  #Contact {
     min-height: 200px;
+  }
+  .store-info div {
+    width: 49%;
+    margin-left: 15%;
+    min-height: 280px;
   }
 
 }
